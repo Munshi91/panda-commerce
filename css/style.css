@@ -1,0 +1,73 @@
+/* #feeae8 */
+:root {
+  --grdiant: linear-gradient(to bottom, #ff589b, #ff136f);
+  --ctgred1: linear-gradient(to left, #fc6ba5, #ff136f);
+  --ctgred2: linear-gradient(to left, #00ffff, #0080ff);
+  --ctgred3: linear-gradient(to left, #ffff00, #ffbf00);
+}
+.bg-benar {
+  background-color: #feeae8;
+  border-radius: 10px;
+}
+.navbar {
+  border-radius: 5px;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+.price {
+  color: #ff136f;
+}
+.buy-btn {
+  background-image: var(--grdiant);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+.container {
+  margin-bottom: 100px;
+}
+.ct-1 {
+  background-image: var(--ctgred3);
+  border-radius: 10px;
+}
+.ct-2 {
+  background-image: var(--ctgred1);
+  border-radius: 10px;
+}
+.ct-3 {
+  background-image: var(--ctgred2);
+  border-radius: 10px;
+}
+.ct-1,
+.ct-2,
+.ct-3 {
+  padding: 10px 30px;
+}
+.catagories h1 {
+  color: white;
+}
+.catagories img {
+  width: 100px;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px #999;
+  border-radius: 10px;
+}
+.card-footer {
+  border-top: none;
+  background-color: #feea;
+}
+#subscribe {
+  height: 300px;
+}
+#subscribe h6 {
+  color: gray;
+}
+footer P {
+  text-align: center;
+}
